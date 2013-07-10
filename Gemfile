@@ -7,7 +7,7 @@ gem "cancan"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :production do
-	gem "pg"
+	gem "sqlite3"
 end
 
 group :test do
