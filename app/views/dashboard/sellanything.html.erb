@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uvalue: Rails Version - Sell Anything</title>
+  <%= stylesheet_link_tag    "bootstrap", :media => "all" %>
+  <%= stylesheet_link_tag    "dashboard", :media => "all" %>
+  <%= javascript_include_tag "dashboard" %>
+  <%= csrf_meta_tags %>
+</head>
+    <body>
+<%= render 'layouts/navinner' %>
+<div class="container">
+
+<div class="row" style="margin-top:50px;">
+<div class="span2"><%= link_to image_tag("SquareLogo.png", :alt => "Uvalue Logo"), dashboard_home_path %>
+			<ul>
+				<li class="sidebar-link"><i class="icon-user"></i><%= link_to "My Presence", dashboard_mypresence_path %> </li>
+				<li class="sidebar-link"><i class="icon-bullhorn"></i><%= link_to "College", dashboard_college_path %> </li>
+				<li class="sidebar-link"><i class="icon-globe"></i><%= link_to "Neighborhood", dashboard_neighborhoods_path %> </li>
+				<li class="sidebar-link"><i class="icon-shopping-cart"></i><%= link_to "Sell Anything", dashboard_sellanything_path %> </li>
+				<li class="sidebar-link"><i class="icon-thumbs-up"></i><%= link_to "Referal", dashboard_referral_path %> </li>
+			</ul>
+		</div>
+<div class="span10" style="background-color:white; min-height:700px; padding-left:20px;">

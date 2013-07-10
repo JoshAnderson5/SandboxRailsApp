@@ -1,0 +1,12 @@
+<%= render 'layouts/navinner' %>
+
+<br/>
+<h2><%= @user.name %></h2>
+<br/>
+<p>
+<%= gravatar_for @user %></br>
+<%= @user.email %>
+
+<br/>
+<strong>URL</strong> <%= link_to user_path(@user), user_path(@user) %>
+</p>

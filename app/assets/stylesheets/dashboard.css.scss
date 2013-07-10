@@ -1,0 +1,32 @@
+// Place all the styles related to the dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: #1A1A1A;
+}
+
+.sidebar-link {
+	float:right;
+	color: white;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.sidebar-link a {
+	color:white;
+	text-decoration: none;
+}
+
+.headerlinks {
+	width: 23%;
+	font-weight: bolder;
+color: rgb(118, 179, 62);
+float: left;
+height: 30px;
+margin-top: 20px;
+text-align: center;
+border-bottom: 5px green solid;
+margin-right: 15px;
+margin-bottom:40px;
+}
